@@ -1,6 +1,21 @@
 {
   "name": "say-hello-world",
   "version": "1.0.0",
-  "main": "index.mjs",
-  "license": "MIT"
+  "main": "dist/index.mjs",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsup",
+    "watch": "npm run build -- --watch"
+  },
+  "tsup": {
+    "entry": ["src/index.ts"],
+    "splitting": true,
+    "format": "esm",
+    "sourcemap": true,
+    "clean": true,
+    "dts": false
+  },
+  "devDependencies": {
+    "tsup": "^7.2.0"
+  }
 }
