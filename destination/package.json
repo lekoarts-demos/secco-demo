@@ -8,5 +8,6 @@
   "dependencies": {
     "say-hello-world": "^1.0.0"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "packageManager": "npm@9.6.7"
 }
