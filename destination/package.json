@@ -6,7 +6,7 @@
     "start": "node cli.mjs"
   },
   "dependencies": {
-    "say-hello-world": "^1.0.0"
+    "say-hello-world-secco": "^1.0.0"
   },
   "license": "MIT",
   "packageManager": "npm@9.6.7"
